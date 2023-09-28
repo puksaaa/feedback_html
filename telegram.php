@@ -23,5 +23,5 @@
         header('Location: ./ok.html');/*перенаправление*/
     } else {
         flash_feedback('К сожалению, письмо не доставлено. Ведутся технические работы');
-        header('Location: ./index.php');/*перенаправление*/
+        header('Location: ./error');/*перенаправление*/
     }
